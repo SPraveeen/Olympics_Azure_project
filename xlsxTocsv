@@ -1,0 +1,9 @@
+# In Google colab python
+
+import pandas as pd
+
+df=pd.read_xslx('URL_Path or file name')
+df.to_csv('File_name',index=False)
+
+from google.colab import files
+files.download('File_name')
